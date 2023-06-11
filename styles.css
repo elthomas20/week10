@@ -1,0 +1,35 @@
+body {
+background-color: silver;
+background-image: url(TMT_logo.png);
+background-repeat: repeat;
+background-size: cover;
+}
+
+.episode-table {
+      background-color:rgb(120, 71, 146);
+      color: white;
+      border: 3px solid black;
+}
+.episode-table thead{
+    text-align: center;
+    font: bold
+}
+.episode-table th,
+.episode-table td {
+      border: 2px solid black;
+      padding: 10px
+    }
+.container-table{
+    background-color: rgb(120, 71, 146);
+      color: white;
+      border: 3px solid black;
+}
+.container-table thead{
+   text-align: center;
+    border: 2px solid black;
+}
+
+.container-table th, .container-table td{
+    text-align: center;
+    border: 2px solid black;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body class="container-fluid">
+   
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <a class="navbar-brand" href= "Home.html">The Mithral Tabletop</a>
+</nav>
+   
+<h1>Mummy's Mask</h1>
+<p1>Welcome to The Mithral Tabletop! We are just a group of friends making a podcast together using our favorite TTRPG: Pathfinder 2e. In our first ever podcast, we will be taking the adventure path "Mummy's Mask" created by PaizoInc and converting it to Pathfinder 2e, thanks to the ingenuity of our GM, Andrew Wahba. We are so excited to share our rendition of this Ancient Egyptian-esque tale. Follow our adventurers as we delve deep into the mysteries of Ancient Osirion! </p1>
+<br>
+<br>
+
+<h3>Episodes</h3>
+<table class="episode-table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Episode #</th>
+        <th scope="col">Title</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Episode 1</th>
+        <td>Meet the Misfits</td>
+      </tr>
+      <tr>
+        <th scope="row">Episode 2</th>
+        <td>Hookah, Line, and Sinker</td>
+      </tr>
+      <tr>
+        <th scope="row">Episode 3</th>
+        <td>Oof, That Stings</td>
+      </tr>
+      <tr>
+        <th scope="row">Episode 4</th>
+        <td>Cluck This, I'm Out</td>
+      </tr>
+      <tr>
+        <th scope="row">Episode 5</th>
+        <td>Getting Shafted</td>
+      </tr>
+      <tr>
+        <th scope="row">Episode 6</th>
+        <td>Khepri Fried Chicken</td>
+      </tr>
+    </tbody>
+  </table>
+
+<br>
+
+<div class="container-table">
+    <h3>Leave a Comment!</h3>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Full name</th>
+          <th>Episode Number</th>
+          <th>Comment</th>
+        </tr>
+      </thead>
+      <tbody id="table-body">
+        <tr>
+          <td>John Doe</td>
+          <td>2</td>
+          <td>I want to pet Toothy, too!</td>
+        </tr>
+        <tr>
+          <td> Jane Smith</td>
+          <td> 1 </td>
+          <td>Wow, you all really are a Band of Misfits. No kidding!</td>
+        </tr>
+      </tbody>
+    </table>
+
+
+    <form id="add-form">
+        <div class="form-group">
+          <label for="full-name">Full name</label>
+          <input type="text" class="form-control" id="full-name" required>
+        </div>
+        <div class="form-group">
+          <label for="episode-number">Episode Number</label>
+          <input type="text" class="form-control" id="episode-number" required>
+        </div>
+        <div class="form-group">
+          <label for="comment">Comment</label>
+          <input type="comment" class="form-control" id="comment" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
+   
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+     <script src="index.js"></script>
+</body>
+</html>
